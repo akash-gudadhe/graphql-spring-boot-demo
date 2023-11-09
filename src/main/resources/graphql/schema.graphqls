@@ -1,0 +1,9 @@
+type Person{
+    id: ID!
+    name: String!
+    country: String!
+}
+
+type Query{
+    persons: [Person]
+}
